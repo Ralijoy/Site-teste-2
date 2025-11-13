@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #000;
+    color: #ddd;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px 30px;
+    background: linear-gradient(to bottom, #000, #1a0000);
+}
+
+header h1 {
+    font-size: 4rem;
+    color: #b30000;
+    letter-spacing: 8px;
+    text-shadow: 0 0 20px #b30000;
+}
+
+header p {
+    color: #ccc;
+}
+
+nav {
+    background-color: #0a0a0a;
+    padding: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: #ddd;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: #ff1c1c;
+}
+
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: #111;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid #4a0000;
+    box-shadow: 0 0 15px #200000;
+}
+
+h2 {
+    color: #ff1c1c;
+    text-shadow: 0 0 8px #4a0000;
+    text-transform: uppercase;
+}
+
+.profissionais {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-profissional {
+    background-color: #161616;
+    border: 1px solid #4a0000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px #200000;
+    width: 30%;
+    min-width: 250px;
+}
+
+.card-profissional h3 {
+    color: #ff3b3b;
+}
+
+.orcamento-form select,
+.orcamento-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #0a0a0a;
+    color: #fff;
+    border: 1px solid #4a0000;
+    border-radius: 6px;
+}
+
+.orcamento-form button {
+    background: #b30000;
+    cursor: pointer;
+}
+
+.orcamento-form button:hover {
+    background: #ff1c1c;
+}
+
+#resultado {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #150000;
+    border: 1px solid #4a0000;
+    border-radius: 6px;
+}
